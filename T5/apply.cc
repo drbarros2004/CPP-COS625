@@ -21,6 +21,7 @@ auto apply(const T_Entry& collection, T_Func f) { // reference to collection is 
     return v;
 }
 
+// Specific template to deal with initializer_list
 template <typename T, typename T_Func> 
 auto apply (initializer_list<T> list, T_Func f) {
 
